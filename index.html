@@ -26,15 +26,19 @@
         }
         .full-stack {
             background-color: #be3329;
-        }.fs-hdr { color: #fFfFfF; }
+        }.fs-hdr { color: #fFfFfF; font-weight: bolder; }
+
+        .templates {
+            background-color: #4806ff;
+        }.tmps-hdr { color: #fbff00; font-weight: bolder; }
 
         .client-side {
-            background-color: #adadad
-        }.cs-hdr { color: #bcf000 }
+            background-color: #01f522
+        }.cs-hdr { color: #ff1100; font-weight: bolder; }
 
         .server-side {
             background-color: #0044ff
-        }.ss-hdr { color:#00f014 }
+        }.ss-hdr { color:#00f014; font-weight: bolder; }
     </style>
 </head>
 <body>
@@ -47,46 +51,139 @@
         <div class="content mt-5">
             <!-- FULL_STACK_APPS -->
             <section class="projects-area full-stack">
-                <h2 class="fs-hdr"><span class="glyphicon glyphicon-plane" aria-hidden="true"> FullStack_Apps</span></h2>
+                <h2 class="fs-hdr">
+                    <span 
+                        class="glyphicon glyphicon-plane" 
+                        aria-hidden="true"> FullStack_Apps</span>
+                </h2>
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h3><a href="#deployed_project_url">project_name</a></h3>
-                        <small>Source Code &lt;&lt; <a href="#deployed_project_url"></a></small>
+                        <small>Source Code &lt;&lt; <a href="#deployed_project_url">SRC_CODE_LINK</a></small>
                     </div>
                     <div class="panel-body">
                         <p>project_description</p>
                     </div>
                 </div>
             </section>
+            <!-- FULL_STACK_APPS __END__ -->
+            <br>
+            <!-- TEMPLATES __START__ -->
+            <section class="projects-area templates">
+                <h2 class="tmps-hdr">
+                    <span 
+                        class="glyphicon glyphicon-briefcase" 
+                        aria-hidden="true"> Templates</span>
+                </h2>
+                <ul>
+                    <div class="panel panel-default ">
+                        <div class="panel-heading">
+                            <h3>PHP_MVC</h3>
+                            <small><a href="https://github.com/jamesAppello/php-mvc">Source Code</a></small>
+                        </div>
+                        <div class="panel-body">
+                            <p>Serves as a starting point for a PHP x SQL User based (register/login) and CRUD methods of Posts</p>
+                        </div>
+                    </div>
+                </ul>
+            </section>
+            <!-- TEMPLATES __END__ -->
             <br>
             <!-- CLIENT_SIDE_APPS -->
             <section class="projects-area client-side">
-                <h2 class="cs-hdr"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"> ClientSide_Apps</span></h2>
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3><a href="#deployed_project_url">project_name</a></h3>
-                        <small>Source Code &lt;&lt; <a href="#deployed_project_url"></a></small>
+                <h2 class="cs-hdr">
+                    <span 
+                        class="glyphicon glyphicon-eye-open" 
+                        aria-hidden="true"> ClientSide_Apps</span>
+                </h2>
+                <ul>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3><a href="https://jamesappello.github.io/denotes/">Denotes</a></h3>
+                            <small><a href="https://github.com/jamesAppello/denotes">Source Code</a></small>
+                        </div>
+                        <div class="panel-body">
+                            <p>Stopwatch with LinkedList Implementation</p> <p>Essentially a complex concept of trying to create a unit of measurement for Attention Dilation</p>
+                        </div>
                     </div>
-                    <div class="panel-body">
-                        <p>project_description</p>
-                    </div>
-                </div>
+                </ul>
             </section>
+            <!-- CLIENT_SIDE_APPS __END__ -->
             <br>
-            <!-- SERVER_SIDE_APPS -->
+            <!-- SERVER_SIDE_APPS __START__ -->
             <section class="projects-area server-side">
-                <h2 class="ss-hdr"><span class="glyphicon glyphicon-console" aria-hidden="true"> SeverSide_Apps</span></h2>
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3>project_name</h3>
-                        <small>Source Code &lt;&lt; <a href="#deployed_project_url"></a></small>
+                <h2 class="ss-hdr">
+                    <span 
+                        class="glyphicon glyphicon-console" 
+                        aria-hidden="true"> SeverSide_Apps</span>
+                </h2>
+                <ul>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3>the-Lor</h3>
+                            <small><a href="https://github.com/jamesAppello/the-lor">Source Code</a></small>
+                        </div>
+                        <div class="panel-body">
+                            <p>A command line interface, written in Node.js</p>
+                            <p>The application has a hashing method, for if you wanted to created a strong password; my gift to the open-source community (moreso for whomever sees value in using it).</p>
+                            <p>It also has the ability to run methods on file system (create a file, make a list file, print out list).</p>
+                            <h3>Eventually: </h3>
+                            <ul>
+                                <li>I'd like to turn it into a software that serves as a cyber defense tool.</li>
+                                <li>Have it perform like a "guardian angel" but in the cyber world.</li>
+                            </ul>
+                            <caption>PS:: I named it after my mother.</caption>
+                        </div>
                     </div>
-                    <div class="panel-body">
-                        <p>project_description</p>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3>LIRI v2</h3>
+                            <small><a href="https://github.com/jamesAppello/liri-v2">Source Code</a></small>
+                        </div>
+                        <div class="panel-body">
+                            <p>A command line interface, written in Node.js</p>
+                            <h3>Features: </h3>
+                            <ul>
+                                <li>
+                                    <ul>
+                                        <li>Entertain me:: STKz_753 (input a number and always returns 10; unless you give an astronomical number).</li>
+                                        <li>uScrambl_r:: another hashing method (I'm a real nerd when it comes to hashing methods; I wish to learn more about them as companies could definitely makeuse of them someday...with more practice obviously).</li>
+                                    </ul>
+                                <li>CRUDabilities:: allows you to create, read, update, &amp; delete a file.</li>
+                                <li>MOOD_SCALE:: (someday I'd like to get to the level of working with AI) What this option does is let you use a LikertScale(x2)(for a length of 10) to scale your mood. I figured it culd have been good to help people going through pandemic fatigue/everyday-stress</li>
+                            </ul>
+                            <hr>
+                            <caption>PS:: this iteration is a different take on a similar projct completed during a coding bootcamp -&gt; <a href="https://github.com/jamesAppello/LIRI-CLI-nodeApp">LIRI (v1)</a></caption>
+                            <ul>
+                                <li>GET song data via Spotify API</li>
+                                <li>GET movie data via OMDB API</li>
+                                <li>GET band info via Bandsintown API</li>
+                                <li>"do-what-it-says":: runs a command based on a txt file with which command you wish to execute</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3>PyCLI</h3>
+                            <small><a href="https://github.com/jamesAppello/py-cli">Source Code</a></small>
+                        </div>
+                        <div class="panel-body">
+                            <p>A command line interface, written in Python</p>
+                            <h3>Features: </h3>
+                            <ul>
+                                <li>Create a &period;txt file</li>
+                                <li>Read a &period;txt file</li>
+                                <li>Create a &period;csv file (needs some fine tuning)</li>
+                                <li>hsh1:: a new hash method I figured out by accident. I have not been able to decode/deHash the output...HOWEVER it does return a unique 9-bit output value EACH &amp; EVERY time!</li>
+                                <li>Create a listname&period;txt file</li>
+                                <li>Append to a listname&period;txt file</li>
+                                <li>Read listname&period;txt file</li>
+                            </ul>
+                        </div>
+                    </div>
+                </ul>
             </section>
-            
+            <!-- SERVER_SIDE_APPS __END__ -->
         </div>
     </div>
 </body>
