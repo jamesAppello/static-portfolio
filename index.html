@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>James Appello | Portoflio</title>
-    <meta name="description" content="Standout projects to showcase web developer experience">
+    <title>James Appello | Portfolio</title>
+    <meta 
+        name="description" 
+        content="Projects to showcase beginner web developer experience.">
     <!-- Bootstrap_CSS -->
     <link 
         rel="stylesheet" 
@@ -18,7 +20,28 @@
         crossorigin="anonymous"></script>
     <style>
         body {
-            background-color: rgb(197, 153, 87);
+            background-image: url('./images/youesaye.jpg');
+        }
+        .hdiv {
+            color:#fbff00;
+            background-color: rgb(22, 36, 22);
+            opacity: 82.14%;
+        }
+        .hdiv strong  {
+            color: #e8662a;
+        }
+        
+        a:link, a:visited {
+            display: inline-block;
+            text-decoration:none;
+            transition: padding 0.2345s ease-out;
+        }
+        .hdiv a:hover {
+            padding: 0.72rem;
+            background-color: #F00;
+            font-weight: bolder;
+            border-radius: 2rem;
+            opacity: 100%
         }
         .projects-area, .full-stack {
             padding: 1.618rem;
@@ -37,15 +60,22 @@
         }.cs-hdr { color: #ff1100; font-weight: bolder; }
 
         .server-side {
-            background-color: #0044ff
-        }.ss-hdr { color:#00f014; font-weight: bolder; }
+            background-color: #eeff00
+        }.ss-hdr { color:#1000f0; font-weight: bolder; }
+
+        /* PANELS */
+        .panel {
+            padding: 0.571em;
+        }
+
     </style>
 </head>
 <body>
-    <div class="container m-2">
+    <div class="container">
         <div class="hdiv jumbotron">
             <header class="hdr">
-                <h1>James Appello</h1>
+                <h1>JamzAppz</h1>
+                <strong>Redirect -&gt; <a href="#WP_LINK_WILL_WORK_WHEN_SERVED2LIVE_SERVER">wordpress</a></strong>
             </header>
         </div>
         <div class="content mt-5">
@@ -79,7 +109,7 @@
                     <div class="panel panel-default ">
                         <div class="panel-heading">
                             <h3>PHP_MVC</h3>
-                            <small><a href="https://github.com/jamesAppello/php-mvc">Source Code</a></small>
+                            <small><a href="https://github.com/jamesAppello/php-mvc" target="_blank">Source Code</a></small>
                         </div>
                         <div class="panel-body">
                             <p>Serves as a starting point for a PHP x SQL User based (register/login) and CRUD methods of Posts</p>
@@ -99,8 +129,8 @@
                 <ul>
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h3><a href="https://jamesappello.github.io/denotes/">Denotes</a></h3>
-                            <small><a href="https://github.com/jamesAppello/denotes">Source Code</a></small>
+                            <h3><a href="https://jamesappello.github.io/denotes/" target="_blank">Denotes</a></h3>
+                            <small><a href="https://github.com/jamesAppello/denotes" target="_blank">Source Code</a></small>
                         </div>
                         <div class="panel-body">
                             <p>Stopwatch with LinkedList Implementation</p> <p>Essentially a complex concept of trying to create a unit of measurement for Attention Dilation</p>
@@ -120,8 +150,8 @@
                 <ul>
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h3>the-Lor</h3>
-                            <small><a href="https://github.com/jamesAppello/the-lor">Source Code</a></small>
+                            <h3>The-Lor</h3>
+                            <small><a href="https://github.com/jamesAppello/the-lor" target="_blank">Source Code</a></small>
                         </div>
                         <div class="panel-body">
                             <p>A command line interface, written in Node.js</p>
@@ -130,15 +160,16 @@
                             <h3>Eventually: </h3>
                             <ul>
                                 <li>I'd like to turn it into a software that serves as a cyber defense tool.</li>
-                                <li>Have it perform like a "guardian angel" but in the cyber world.</li>
+                                <li>Have it perform like a "guardian" &gt;&gt; cyber world. &num;lorThemIn</li>
                             </ul>
-                            <caption>PS:: I named it after my mother.</caption>
+                            <br>
+                            <caption>PS::I named this CLI as a tribute to my mother.</caption>
                         </div>
                     </div>
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h3>LIRI v2</h3>
-                            <small><a href="https://github.com/jamesAppello/liri-v2">Source Code</a></small>
+                            <small><a href="https://github.com/jamesAppello/liri-v2" target="_blank">Source Code</a></small>
                         </div>
                         <div class="panel-body">
                             <p>A command line interface, written in Node.js</p>
@@ -165,7 +196,7 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h3>PyCLI</h3>
-                            <small><a href="https://github.com/jamesAppello/py-cli">Source Code</a></small>
+                            <small><a href="https://github.com/jamesAppello/py-cli" target="_blank">Source Code</a></small>
                         </div>
                         <div class="panel-body">
                             <p>A command line interface, written in Python</p>
